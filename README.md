@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+
+#Introduction   <i class="em em-smiley" aria-role="presentation" aria-label="SMILING FACE WITH OPEN MOUTH"></i>
+
+A web app that contains a variety of summaries of a variety of movies as cards. This project is very similar to a previous project in javaScript only this time as part of my self learning React.js, I decided to build the project again. The same films will be shown with ratings and year details, which will make it easier for the user to understand which film he would like to see in the cinema even before (according to the parameters presented) as suitable for him. The app will allow a number of movie filtering options, including movie search. The options that the web application allows the user to activate will be from the side menu that incorporates animation.
+
+## Getting Started with Create React App :rocket:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +73,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###-------------------------------------------------------------------------------------------------------------------------------------------------
+
+# API <i class="em em-eye" aria-role="presentation" aria-label=""></i>
+ I used The Movie Database, fetching information about movies (API has great documentation).
+ 
+ # React featurs <i class="em em-beetle" aria-role="presentation" aria-label="LADY BEETLE"></i>
+   * Functional Components
+   * Properties
+   * Hooks
+   * Context API
+   * Router 
+
+![closebar](https://user-images.githubusercontent.com/57037365/126012644-e06051d0-5680-4fd4-9ac0-771594d83b5d.png)
+
+ <i class="em em-arrow_lower_right" aria-role="presentation" aria-label="SOUTH EAST ARROW"></i>
+
+![openbar](https://user-images.githubusercontent.com/57037365/126012658-01ae7b66-7bb7-4a42-85c0-3af4447c7d70.png)
+
+ 
