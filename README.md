@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-### -------------------------------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------
 
 # API <i class="em em-eye" aria-role="presentation" aria-label=""></i>
  I used The Movie Database, fetching information about movies (API has great documentation).
