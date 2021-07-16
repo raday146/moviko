@@ -1,5 +1,5 @@
 const date = () => { return new Date();};
-const apiKey="TheKey";
+const apiKey="thekey";
 const year = date().getFullYear(); // used for the query  
 const isoCurrentDate = date().toISOString().substring(0,10); // used for the query 
 export const imgPath = 'https://image.tmdb.org/t/p/w1280';

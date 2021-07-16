@@ -9,13 +9,14 @@ function MovieCard(props){
     const [show, toggleHover] = useToggleState(false);
     const {page, classes, title, poster_path, vote_average, overview, release_date}  = props;
     console.log(page);
+    const colorize = vote_average > 7? "red":"white";
 
     return(
       <div className={classes.root} onClick={toggleHover}>
           <img className={classes.image} src={poster_path? `https://image.tmdb.org/t/p/w1280/${poster_path}`:image} alt=""/>
         <div className={classes.info}>
              <h3 className={classes.title}>{title}</h3>
-             <span className={classes.infoSpan}>{vote_average}</span>
+             <span className={classes.infoSpan} style={{color:colorize}} >{vote_average}</span>
         </div>
         <div className={show?  classes.showView: classes.overView}>
             <p>

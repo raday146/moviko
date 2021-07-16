@@ -65,7 +65,7 @@ const styles ={
 },
  colorRate:{
    color:"red",
-   fontWeight: "600"
+  // fontWeight: "600"
 },
  image:{
     objectFit: "cover",
