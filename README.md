@@ -1,5 +1,5 @@
 
-#Introduction   <i class="em em-smiley" aria-role="presentation" aria-label="SMILING FACE WITH OPEN MOUTH"></i>
+# Introduction   <i class="em em-smiley" aria-role="presentation" aria-label="SMILING FACE WITH OPEN MOUTH"></i>
 
 A web app that contains a variety of summaries of a variety of movies as cards. This project is very similar to a previous project in javaScript only this time as part of my self learning React.js, I decided to build the project again. The same films will be shown with ratings and year details, which will make it easier for the user to understand which film he would like to see in the cinema even before (according to the parameters presented) as suitable for him. The app will allow a number of movie filtering options, including movie search. The options that the web application allows the user to activate will be from the side menu that incorporates animation.
 
@@ -85,9 +85,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    * Context API
    * Router 
 
-![closebar](https://user-images.githubusercontent.com/57037365/126012644-e06051d0-5680-4fd4-9ac0-771594d83b5d.png)
+![closebar](https://user-images.githubusercontent.com/57037365/126013140-3589c351-c41e-40c9-a0ed-d1d1e78d128d.png)
+
 
  <i class="em em-arrow_lower_right" aria-role="presentation" aria-label="SOUTH EAST ARROW"></i>
+
 
 ![openbar](https://user-images.githubusercontent.com/57037365/126012658-01ae7b66-7bb7-4a42-85c0-3af4447c7d70.png)
 
