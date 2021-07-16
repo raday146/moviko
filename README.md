@@ -78,12 +78,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # API <i class="em em-eye" aria-role="presentation" aria-label=""></i>
  I used The Movie Database, fetching information about movies (API has great documentation).
  
- # React featurs <i class="em em-beetle" aria-role="presentation" aria-label="LADY BEETLE"></i>
+ ### Uses :<i class="em em-beetle" aria-role="presentation" aria-label="LADY BEETLE"></i>:
    * Functional Components
    * Properties
    * Hooks
    * Context API
    * Router 
+  
 
 ![closebar](https://user-images.githubusercontent.com/57037365/126013140-3589c351-c41e-40c9-a0ed-d1d1e78d128d.png)
 
