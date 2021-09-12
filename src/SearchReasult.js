@@ -13,6 +13,7 @@ function SearchReasult(props){
     const {data,goTo} = useContext(searchReasultContext);
    const backHome =()=>{
         goTo('home');
+        console.log('a');
      };
     const cards = data.length? data.map(((movie,i) =>(
           <MovieCard  
@@ -30,11 +31,12 @@ function SearchReasult(props){
     ): <div>
             <img src={img} alt='' width={150} />
             <h3> No results found</h3>
-            <Button  className={classes.button} variant="contained" color="primary">
-             <Link className={classes.button} exact to="/Home" onClick={()=>{backHome('Home')} } >
-                                  <span className={classes.span}>Home</span>
-             </Link>
-            </Button>
+            <li  className={classes.linkBtn} >
+             <Link exact to="/Home" onClick={()=>{backHome('Home')} } >
+                         <span className={classes.span}>Home</span>
+              </Link>
+            </li>
+          
        </div>;
   
     return(
@@ -43,5 +45,11 @@ function SearchReasult(props){
         </div> 
     );
 }
-
+/**
+ *  <Button  className={classes.button} variant="contained" color="primary">
+             <Link className={classes.button} exact to="/Home" onClick={()=>{backHome('Home')} } >
+                                  <span className={classes.span}>Home</span>
+             </Link>
+            </Button>
+ */
 export default withStyles(styles)(SearchReasult);
