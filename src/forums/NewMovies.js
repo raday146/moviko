@@ -8,7 +8,7 @@ function NewMovies(props){
     const {classes} =props;
     const cinema = useContext(MovikoContext);
     const movies = cinema[0].newMovie;
-    console.log(movies);
+    //console.log(movies);
     const cards =  movies.map(((movie,i) =>(
           
           <MovieCard 

@@ -1,6 +1,7 @@
 import React from "react"
 import ReactPlayer from "react-player"
 
+// The component  is not finished yet, I'm still considering if should I use it or not.
 function Trailer() {
   return (
     <div>
