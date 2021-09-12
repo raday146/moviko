@@ -8,7 +8,7 @@ import styles from './styles/movieCardStyle';
 function MovieCard(props){
     const [show, toggleHover] = useToggleState(false);
     const {page, classes, title, poster_path, vote_average, overview, release_date}  = props;
-    console.log(page);
+    //console.log(page);
     const colorize = vote_average > 7? "red":"white";
 
     return(

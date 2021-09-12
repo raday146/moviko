@@ -2,14 +2,19 @@ import React, {useContext} from 'react';
 import MovieCard from './MovieCard';
 import {searchReasultContext} from './contexts/moviko.context';
 import { withStyles } from '@material-ui/styles';
+import Button from '@material-ui/core/Button';
 import styles from './styles/mainForumStyle';
+import img from './img/noResult.png';
+import { Link } from 'react-router-dom';
 
 
 function SearchReasult(props){
     const {classes} =props;
-    const {data} = useContext(searchReasultContext);
-    console.log(data);
-    const cards = data.map(((movie,i) =>(
+    const {data,goTo} = useContext(searchReasultContext);
+   const backHome =()=>{
+        goTo('home');
+     };
+    const cards = data.length? data.map(((movie,i) =>(
           <MovieCard  
              key={movie.id} 
              index={i} 
@@ -21,13 +26,21 @@ function SearchReasult(props){
              page="SearchReasult"
           />
      ))
-    );
-    
+  
+    ): <div>
+            <img src={img} alt='' width={150} />
+            <h3> No results found</h3>
+            <Button  className={classes.button} variant="contained" color="primary">
+             <Link className={classes.button} exact to="/Home" onClick={()=>{backHome('Home')} } >
+                                  <span className={classes.span}>Home</span>
+             </Link>
+            </Button>
+       </div>;
+  
     return(
-        <div className={classes.mainForum}>
+        <div className={data.length? classes.mainForum: classes.noResult}>
           {cards}
-        </div>
-        
+        </div> 
     );
 }
 
