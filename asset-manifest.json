@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/moviko/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/moviko/static/js/main.8df12297.chunk.js",
-    "main.js.map": "/moviko/static/js/main.8df12297.chunk.js.map",
+    "main.js": "/moviko/static/js/main.aea11e42.chunk.js",
+    "main.js.map": "/moviko/static/js/main.aea11e42.chunk.js.map",
     "runtime-main.js": "/moviko/static/js/runtime-main.f939d9f3.js",
     "runtime-main.js.map": "/moviko/static/js/runtime-main.f939d9f3.js.map",
-    "static/js/2.dff2e93c.chunk.js": "/moviko/static/js/2.dff2e93c.chunk.js",
-    "static/js/2.dff2e93c.chunk.js.map": "/moviko/static/js/2.dff2e93c.chunk.js.map",
+    "static/js/2.5cc4ec21.chunk.js": "/moviko/static/js/2.5cc4ec21.chunk.js",
+    "static/js/2.5cc4ec21.chunk.js.map": "/moviko/static/js/2.5cc4ec21.chunk.js.map",
     "static/js/3.f4ca0c59.chunk.js": "/moviko/static/js/3.f4ca0c59.chunk.js",
     "static/js/3.f4ca0c59.chunk.js.map": "/moviko/static/js/3.f4ca0c59.chunk.js.map",
     "index.html": "/moviko/index.html",
     "static/css/main.2ae47eeb.chunk.css.map": "/moviko/static/css/main.2ae47eeb.chunk.css.map",
-    "static/js/2.dff2e93c.chunk.js.LICENSE.txt": "/moviko/static/js/2.dff2e93c.chunk.js.LICENSE.txt",
+    "static/js/2.5cc4ec21.chunk.js.LICENSE.txt": "/moviko/static/js/2.5cc4ec21.chunk.js.LICENSE.txt",
     "static/media/noFoto.1cff21d7.png": "/moviko/static/media/noFoto.1cff21d7.png",
     "static/media/noResult.84758466.png": "/moviko/static/media/noResult.84758466.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f939d9f3.js",
-    "static/js/2.dff2e93c.chunk.js",
+    "static/js/2.5cc4ec21.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.8df12297.chunk.js"
+    "static/js/main.aea11e42.chunk.js"
   ]
 }
