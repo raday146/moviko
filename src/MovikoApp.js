@@ -64,7 +64,7 @@ function MovikoApp(props){
             <h4 className={classes.loadingTitle}>Loading...</h4>
            </div> :
           
-        <Route basename={process.env.PUBLIC_URL}>
+        <Route>
             <Switch>
              <MovikoProvider>
               <NavBar/>
