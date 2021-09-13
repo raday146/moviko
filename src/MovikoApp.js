@@ -1,5 +1,5 @@
 import React, {memo, useEffect} from 'react';
-import {Redirect, Route, Switch  } from 'react-router-dom';
+import { HashRouter as Router,Redirect, Route, Switch  } from 'react-router-dom';
 import NavBar from './NavBar';
 import Home from './forums/Home';
 import MostPopular from './forums/MostPopular';
@@ -64,7 +64,7 @@ function MovikoApp(props){
             <h4 className={classes.loadingTitle}>Loading...</h4>
            </div> :
           
-        <Route >
+        <Router>
             <Switch>
              <MovikoProvider>
               <NavBar/>
@@ -74,9 +74,10 @@ function MovikoApp(props){
                         <Route exact  path="/MostPopular" component ={MostPopular}/>
                         <Route exact  path="/search/:id" component ={SearchReasult}/>
                         <Redirect to='/Home'/>   
+
              </MovikoProvider>
             </Switch>
-        </Route>
+        </Router>
        }
      </>
     );
