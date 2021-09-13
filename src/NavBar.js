@@ -18,10 +18,8 @@ function NavBar(props){
     const {data, dis} = useContext(searchReasultContext);
 
     const handleLink = (item)=>{
-        console.log(item,'s');
         dispatch({type:`${item.title}`, id:`${item.id}`})
         dis({items:""});
-        
     }
     return(
      <>    
