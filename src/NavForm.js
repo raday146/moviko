@@ -18,7 +18,7 @@ function NavForm(props){
           <Paper style={{margin: "1rem 0", padding:"0 1rem"}}>
             <form onSubmit = {e =>{
                   e.preventDefault();
-                  console.log(search+value);
+                //  console.log(search+value);
                  value? getTheMovies(search+value).then((data) =>{
                     if(data){
                       // console.log(data)
@@ -28,7 +28,7 @@ function NavForm(props){
                    }
                  }
             
-                 ) : console.log('no input');
+                 ) :// console.log('no input');
                  //addTodo(value);
                  reset();
             }}>

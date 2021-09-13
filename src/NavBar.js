@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import {Link, NavLink, withRouter} from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import *  as AiIcons from 'react-icons/ai';
 import {SidebarContent} from './SidebarContent';
