@@ -64,7 +64,7 @@ function MovikoApp(props){
             <h4 className={classes.loadingTitle}>Loading...</h4>
            </div> :
           
-        <HashRouter  basename={process.env.PUBLIC_URL + '/'}>
+        <HashRouter>
             <Switch>
              <MovikoProvider>
               <NavBar/>
