@@ -15,6 +15,7 @@ function MovikoProvider(props){
     const [data, dis] = useReducer(pullReasult,"");
   
     const goTo=(dest)=>{
+        
      props.history.push(dest);
      
     // console.log(dest,'1');
