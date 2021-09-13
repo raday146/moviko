@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import MovieCard from './MovieCard';
 import {searchReasultContext} from './contexts/moviko.context';
 import { withStyles } from '@material-ui/styles';
+import Button from '@material-ui/core/Button';
 import styles from './styles/mainForumStyle';
 import img from './img/noResult.png';
 import { Link } from 'react-router-dom';
@@ -12,7 +13,7 @@ function SearchReasult(props){
     const {data,goTo} = useContext(searchReasultContext);
    const backHome =()=>{
         goTo('home');
-        //console.log('a');
+        console.log('a');
      };
     const cards = data.length? data.map(((movie,i) =>(
           <MovieCard  

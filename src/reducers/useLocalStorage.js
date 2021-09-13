@@ -9,7 +9,7 @@ function useLocalStorageReducer(key, defaultVal, reducer){
                  );
                 }catch(e){
                           value = defaultVal;  
-                         // console.log("useLocalStorageReducer - error "); 
+                          console.log("useLocalStorageReducer - error "); 
                 }    
        return value;
        
@@ -20,7 +20,7 @@ function useLocalStorageReducer(key, defaultVal, reducer){
           
           if(window.localStorage.length === 0){
                 window.localStorage.setItem(key, JSON.stringify(cinema));
-                //console.log("useEffect in if");
+                console.log("useEffect in if");
           }
                        
     }, []);
