@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/moviko/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/moviko/static/js/main.fc601f16.chunk.js",
-    "main.js.map": "/moviko/static/js/main.fc601f16.chunk.js.map",
+    "main.js": "/moviko/static/js/main.4ce99632.chunk.js",
+    "main.js.map": "/moviko/static/js/main.4ce99632.chunk.js.map",
     "runtime-main.js": "/moviko/static/js/runtime-main.f939d9f3.js",
     "runtime-main.js.map": "/moviko/static/js/runtime-main.f939d9f3.js.map",
     "static/js/2.5cc4ec21.chunk.js": "/moviko/static/js/2.5cc4ec21.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.f939d9f3.js",
     "static/js/2.5cc4ec21.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.fc601f16.chunk.js"
+    "static/js/main.4ce99632.chunk.js"
   ]
 }
