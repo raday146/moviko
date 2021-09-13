@@ -64,7 +64,7 @@ function MovikoApp(props){
             <h4 className={classes.loadingTitle}>Loading...</h4>
            </div> :
           
-        <Route path={process.env.PUBLIC_URL + '/'}>
+        <Router path={process.env.PUBLIC_URL + '/'}>
             <Switch>
              <MovikoProvider>
               <NavBar/>
@@ -76,7 +76,7 @@ function MovikoApp(props){
                         <Redirect to='/Home'/>   
              </MovikoProvider>
             </Switch>
-        </Route>
+        </Router>
        }
      </>
     );
