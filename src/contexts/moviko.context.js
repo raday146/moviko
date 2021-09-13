@@ -1,8 +1,8 @@
-import React, {createContext,memo, useState,useReducer} from "react";
+import React, {createContext,memo,useReducer} from "react";
 import {withRouter} from 'react-router-dom';
 import reducer from "../reducers/moviko.reducer";
 import {useLocalStorageReducer} from '../reducers/useLocalStorage';
-import useReasultState from "../hooks/useReasultState";
+//import useReasultState from "../hooks/useReasultState";
 import pullReasult from '../reducers/searchReducer';
 export const MovikoContext = createContext();
 export const DispatchContext = createContext();
@@ -15,7 +15,7 @@ function MovikoProvider(props){
     const [data, dis] = useReducer(pullReasult,"");
   
     const goTo=(dest)=>{
-        
+
      props.history.push(dest);
      
     // console.log(dest,'1');

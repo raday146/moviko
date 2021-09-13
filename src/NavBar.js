@@ -15,7 +15,7 @@ function NavBar(props){
     const {classes} = props;
     const [sidebar, showSidebar] = useSidebarState(false);
     const dispatch = useContext(DispatchContext);
-    const {data, dis} = useContext(searchReasultContext);
+    const {dis} = useContext(searchReasultContext);
 
     const handleLink = (item)=>{
         dispatch({type:`${item.title}`, id:`${item.id}`})
