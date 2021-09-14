@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import {Link, withRouter} from 'react-router-dom';
+import {Link, withRouter, useHistory} from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import *  as AiIcons from 'react-icons/ai';
 import {SidebarContent} from './SidebarContent';
@@ -16,11 +16,12 @@ function NavBar(props){
     const [sidebar, showSidebar] = useSidebarState(false);
     const dispatch = useContext(DispatchContext);
     const {dis} = useContext(searchReasultContext);
+    const history = useHistory();
 
     const handleLink = (item)=>{
-        console.log(item);
         dispatch({type:`${item.title}`, id:`${item.id}`})
         dis({items:""});
+        history.push(`/moviko${item.path}`);
     }
     return(
      <>    
@@ -40,10 +41,11 @@ function NavBar(props){
                    {SidebarContent.map((item, index) =>{
                      return(
                          <li key={index} className={classes.navText} >
-                            <Link exact  to={`/moviko${item.path}`} onClick={()=>{handleLink(item)} } >
+
+                            <a href='#' onClick={()=>{handleLink(item)} } >
                                   {item.icon}
                                   <span className={classes.itemTitle}>{item.title}</span>
-                            </Link>
+                            </a>
                         </li>
                         
                      );
