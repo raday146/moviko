@@ -68,12 +68,12 @@ function MovikoApp(props){
             <Switch>
              <MovikoProvider>
               <NavBar/>
-                        <Route exact  path="/r-mv/Home" component={Home}/>
-                        <Route exact  path="/r-mv/NewMovies" component={NewMovies} />
-                        <Route exact  path="/r-mv/HighestRated"  component={HighestRated}/>
-                        <Route exact  path="/r-mv/MostPopular" component ={MostPopular}/>
-                        <Route exact  path="/r-mv/search/:id" component ={SearchReasult}/>
-                        <Redirect to='/r-mv/Home'/>   
+                        <Route exact  path="/moviko/Home" component={Home}/>
+                        <Route exact  path="/moviko/NewMovies" component={NewMovies} />
+                        <Route exact  path="/moviko/HighestRated"  component={HighestRated}/>
+                        <Route exact  path="/moviko/MostPopular" component ={MostPopular}/>
+                        <Route exact  path="/moviko/search/:id" component ={SearchReasult}/>
+                        <Redirect to='/moviko/Home'/>   
                     
              </MovikoProvider>
             </Switch>

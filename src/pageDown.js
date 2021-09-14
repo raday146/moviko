@@ -17,7 +17,7 @@ function PageDown(props){
             <img src={img} alt='' width={150} />
             <h3> No results found</h3>
             <li  className={classes.linkBtn} >
-             <Link exact to="/Home" onClick={()=>{backHome('Home')} } >
+             <Link exact to="/moviko/Home" onClick={()=>{backHome('Home')} } >
                          <span className={classes.span}>Home</span>
               </Link>
             </li>

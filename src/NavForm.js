@@ -23,7 +23,7 @@ function NavForm(props){
                     if(data){
                       // console.log(data)
                       dis({items:data});
-                      goTo(`/r-mv/search/${value}`);
+                      goTo(`/moviko/search/${value}`);
                       
                    }
                  }
