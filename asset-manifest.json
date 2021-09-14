@@ -1,24 +1,10 @@
 {
-  "files": {
-    "main.css": "/moviko/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/moviko/static/js/main.1a82ac55.chunk.js",
-    "main.js.map": "/moviko/static/js/main.1a82ac55.chunk.js.map",
-    "runtime-main.js": "/moviko/static/js/runtime-main.f939d9f3.js",
-    "runtime-main.js.map": "/moviko/static/js/runtime-main.f939d9f3.js.map",
-    "static/js/2.00e921f6.chunk.js": "/moviko/static/js/2.00e921f6.chunk.js",
-    "static/js/2.00e921f6.chunk.js.map": "/moviko/static/js/2.00e921f6.chunk.js.map",
-    "static/js/3.f4ca0c59.chunk.js": "/moviko/static/js/3.f4ca0c59.chunk.js",
-    "static/js/3.f4ca0c59.chunk.js.map": "/moviko/static/js/3.f4ca0c59.chunk.js.map",
-    "index.html": "/moviko/index.html",
-    "static/css/main.2ae47eeb.chunk.css.map": "/moviko/static/css/main.2ae47eeb.chunk.css.map",
-    "static/js/2.00e921f6.chunk.js.LICENSE.txt": "/moviko/static/js/2.00e921f6.chunk.js.LICENSE.txt",
-    "static/media/noFoto.1cff21d7.png": "/moviko/static/media/noFoto.1cff21d7.png",
-    "static/media/noResult.84758466.png": "/moviko/static/media/noResult.84758466.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.f939d9f3.js",
-    "static/js/2.00e921f6.chunk.js",
-    "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.1a82ac55.chunk.js"
-  ]
+  "main.css": "static/css/main.abbb9e94.css",
+  "main.css.map": "static/css/main.abbb9e94.css.map",
+  "main.js": "static/js/main.d5fb93e8.js",
+  "main.js.map": "static/js/main.d5fb93e8.js.map",
+  "static/js/0.131cff63.chunk.js": "static/js/0.131cff63.chunk.js",
+  "static/js/0.131cff63.chunk.js.map": "static/js/0.131cff63.chunk.js.map",
+  "static\\media\\noFoto.png": "static/media/noFoto.80340a70.png",
+  "static\\media\\noResult.png": "static/media/noResult.9115412e.png"
 }
