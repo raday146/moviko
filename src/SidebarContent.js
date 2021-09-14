@@ -7,7 +7,7 @@ import *  as Md from 'react-icons/md';
 export const SidebarContent= [
    {
     title: 'Home',
-    path: '/',
+    path: '/Home',
     icon: <AiIcons.AiFillHome/>,
     cName: 'nav-text', 
     id:'allMovies'

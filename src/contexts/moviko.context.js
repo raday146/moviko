@@ -17,7 +17,6 @@ function MovikoProvider(props){
     const goTo=(dest)=>{
 
      props.history.push(dest);
-     
     // console.log(dest,'1');
      //console.log(props);
    }

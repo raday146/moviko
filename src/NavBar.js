@@ -18,6 +18,7 @@ function NavBar(props){
     const {dis} = useContext(searchReasultContext);
 
     const handleLink = (item)=>{
+        console.log(item);
         dispatch({type:`${item.title}`, id:`${item.id}`})
         dis({items:""});
     }
@@ -39,7 +40,7 @@ function NavBar(props){
                    {SidebarContent.map((item, index) =>{
                      return(
                          <li key={index} className={classes.navText} >
-                            <Link exact  to={item.title !== "Home"? `${item.path}` : "/Home"} onClick={()=>{handleLink(item)} } >
+                            <Link exact  to={`/r-mv${item.path}`} onClick={()=>{handleLink(item)} } >
                                   {item.icon}
                                   <span className={classes.itemTitle}>{item.title}</span>
                             </Link>
