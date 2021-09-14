@@ -53,7 +53,8 @@ function MovikoApp(props){
   }, []);
 
     return(
-     <>
+    
+     <div>
       {loading? <div 
            className={classes.spinnerLoading}>
            <HashLoader 
@@ -78,8 +79,8 @@ function MovikoApp(props){
              </MovikoProvider>
             </Switch>
         </Route>
-       }
-     </>
+      }
+      </div>
     );
 }
 export default withStyles(styles)(memo(MovikoApp));

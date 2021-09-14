@@ -24,7 +24,7 @@ function NavBar(props){
         history.push(`/moviko${item.path}`);
     }
     return(
-     <>    
+     <div>   
       <IconContext.Provider value={{color:"white"}}> 
         <div className={classes.root}>
             <Link tg='#' className={classes.menubar}>
@@ -42,7 +42,7 @@ function NavBar(props){
                      return(
                          <li key={index} className={classes.navText} >
 
-                            <a href='#' onClick={()=>{handleLink(item)} } >
+                            <a onClick={()=>{handleLink(item)} } >
                                   {item.icon}
                                   <span className={classes.itemTitle}>{item.title}</span>
                             </a>
@@ -57,7 +57,7 @@ function NavBar(props){
              <SearchForm/>
          </div>
       </IconContext.Provider> 
-     </>
+     </div>
     );
 }
 export default withStyles(styles)(withRouter(NavBar));
