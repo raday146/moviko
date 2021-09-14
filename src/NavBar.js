@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import {Link, withRouter, useHistory} from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import *  as AiIcons from 'react-icons/ai';
 import {SidebarContent} from './SidebarContent';
@@ -16,15 +16,12 @@ function NavBar(props){
     const [sidebar, showSidebar] = useSidebarState(false);
     const dispatch = useContext(DispatchContext);
     const {dis} = useContext(searchReasultContext);
-    const history = useHistory();
-
     const handleLink = (item)=>{
         dispatch({type:`${item.title}`, id:`${item.id}`})
         dis({items:""});
-        history.push(`/moviko${item.path}`);
     }
     return(
-     <div>   
+     <div>    
       <IconContext.Provider value={{color:"white"}}> 
         <div className={classes.root}>
             <Link tg='#' className={classes.menubar}>
@@ -42,10 +39,10 @@ function NavBar(props){
                      return(
                          <li key={index} className={classes.navText} >
 
-                            <a onClick={()=>{handleLink(item)} } >
+                            <Link exact  to={`/moviko${item.path}`} onClick={()=>{handleLink(item)} } >
                                   {item.icon}
                                   <span className={classes.itemTitle}>{item.title}</span>
-                            </a>
+                            </Link>
                         </li>
                         
                      );
@@ -58,6 +55,7 @@ function NavBar(props){
          </div>
       </IconContext.Provider> 
      </div>
+     
     );
 }
 export default withStyles(styles)(withRouter(NavBar));
