@@ -21,7 +21,7 @@ function NavForm(props){
                 //  console.log(search+value);
                  value? getTheMovies(search+value).then((data) =>{
                     if(data){
-                      // console.log(data)
+                      console.log('at search')
                       dis({items:data});
                       goTo(`/moviko/search/${value}`);
                       
