@@ -18,7 +18,6 @@ function MovikoProvider(props){
 
      //props.history.push(dest);
      history.push(dest);
-     location.pathname
      //console.log(props);
    }
 
