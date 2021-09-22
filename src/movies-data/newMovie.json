@@ -1,0 +1,374 @@
+{
+  "id": "newMovie",
+  "newMovie": [
+    {
+      "adult": false,
+      "backdrop_path": "/udPGzPkpIsb2uAjU8kns1JzSF5e.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 876615,
+      "original_language": "en",
+      "original_title": "Moonlit Nights",
+      "overview": "Unemployed and broke, Michael’s seemingly useless efforts to find employment lead him to discovering inner peace and the value of perseverance.",
+      "popularity": 1.177,
+      "poster_path": "/cUs68dnl9r9oa0Z9Msha5HcmV1L.jpg",
+      "release_date": "2021-03-15",
+      "title": "Moonlit Nights",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tAqUyeIH2rOKvfXU5aQO9YnvmUY.jpg",
+      "genre_ids": [
+        18,
+        53
+      ],
+      "id": 876538,
+      "original_language": "en",
+      "original_title": "The Innocence of the Mind I: A Comfortable Distance",
+      "overview": "A young man with far too much self awareness analyzes free will as his reality is distorted.",
+      "popularity": 1.4,
+      "poster_path": "/kyILlROAoyPl3A9iZUUdTrm4b93.jpg",
+      "release_date": "2021-09-24",
+      "title": "The Innocence of the Mind I: A Comfortable Distance",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [],
+      "id": 876186,
+      "original_language": "en",
+      "original_title": "Above & Beyond #ABGT450",
+      "overview": "The 450th edition of Group Therapy Radio",
+      "popularity": 1.96,
+      "poster_path": "/fY4FRwN3u19BYlQGrLcvxrJRPNb.jpg",
+      "release_date": "2021-09-04",
+      "title": "Above & Beyond #ABGT450",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [],
+      "id": 875891,
+      "original_language": "en",
+      "original_title": "Brighter, Brighter Day",
+      "overview": "A mentally deranged man in a constant battle with himself decided that there's one more thing left for him to do.",
+      "popularity": 1.75,
+      "poster_path": "/vI3Xx7OKAqWOLM3OKq3CLt1z1zw.jpg",
+      "release_date": "2021-07-19",
+      "title": "Brighter, Brighter Day",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/y7FDSOkxgd8YWsS923OFBS5RXtH.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 875163,
+      "original_language": "en",
+      "original_title": "Ball Sweat",
+      "overview": "A game of pickup basketball awakes inner desire.",
+      "popularity": 1.14,
+      "poster_path": "/yh46iR4NLnNurZCtuRfBlK1RQVP.jpg",
+      "release_date": "2021-08-06",
+      "title": "Ball Sweat",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/u93aNiABpoK17xQsKy4yS1TcPYQ.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 874701,
+      "original_language": "en",
+      "original_title": "Classic Reflections",
+      "overview": "An experimental short film playing with reflection through windows, mirrors, and other less reflective objects.",
+      "popularity": 5.517,
+      "poster_path": "/4oQ3nISFOE3vmfgWJj8EWmZquB9.jpg",
+      "release_date": "2021-09-17",
+      "title": "Classic Reflections",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18,
+        35,
+        10402,
+        10749
+      ],
+      "id": 874495,
+      "original_language": "de",
+      "original_title": "Was Alles Sein Könnte",
+      "overview": "Hum lives in a refugee camp near Hamburg. He loves films and finances his visits to the cinema by selling lost properties from cinema visits in the refugee camp. One day he meets Anna and her friend Ida. At a dinner together in the shared flat of the two, they find out that they all share a love of music. Anna and Ida can sing great together and Hum shares the contact with his friends who play in a band. A timid and touching love story develops between Hum and Anna. Both are looking forward to the first performance of the band, in which Anna now sings. But shortly before the performance, Hum is to be deported. Neither his love for Anna and music nor his imagination can save him from the everyday life of a refugee.",
+      "popularity": 5.033,
+      "poster_path": "/jGsFkkLEDBNLwjmYQCDho3bWabS.jpg",
+      "release_date": "2021-09-16",
+      "title": "What It All Could Be",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/j3sX6IdfALoYY3rRXfs8v6p625s.jpg",
+      "genre_ids": [
+        53,
+        27,
+        18,
+        9648
+      ],
+      "id": 874423,
+      "original_language": "en",
+      "original_title": "Thorn",
+      "overview": "An experimental short shot during lockdown in Adelaide, Australia exploring themes of growth and decay.",
+      "popularity": 0.851,
+      "poster_path": "/q76ExgmsO4HxM68DPfPMtr7jdcv.jpg",
+      "release_date": "2021-06-25",
+      "title": "Thorn",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [],
+      "id": 874411,
+      "original_language": "en",
+      "original_title": "Muse",
+      "overview": "A young photographer lusts after his ideal subject - and believes he cannot create his art without her.",
+      "popularity": 0.659,
+      "poster_path": "/hCPNLIUbxlyW0OvAJOeIpyyX68N.jpg",
+      "release_date": "2021-07-01",
+      "title": "Muse",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6gbVC9mPp1Ae9nR4OK58ej1xVM9.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 874286,
+      "original_language": "es",
+      "original_title": "El Mejor Error de Mi Vida",
+      "overview": "",
+      "popularity": 0.6,
+      "poster_path": "/7Tg3501ruaeFb5hzn903LcRE7vA.jpg",
+      "release_date": "2021-04-02",
+      "title": "El Mejor Error de Mi Vida",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sWKaG73Ott1klIDod4OZjZL7QGn.jpg",
+      "genre_ids": [
+        18,
+        878
+      ],
+      "id": 873897,
+      "original_language": "es",
+      "original_title": "Solazo",
+      "overview": "Solazo is set in a future in which solar radiation has become harmful. Humanity has managed to adapt, however Lucas is torn between the attraction and repulsion that the sun causes him, while he takes care of a plant.",
+      "popularity": 1.653,
+      "poster_path": "/wxkQ8eBRXToexsJojXMNzuk0qnl.jpg",
+      "release_date": "2021-09-01",
+      "title": "Solazo",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        9648
+      ],
+      "id": 873890,
+      "original_language": "en",
+      "original_title": "T.I.N.T",
+      "overview": "A group of friends gather to play a board game only to find themselves trapped in it. The only way to escape it is to play.",
+      "popularity": 3.529,
+      "poster_path": "/8AFd6uaxzO4TJoRr4823hgMbtVx.jpg",
+      "release_date": "2021-09-14",
+      "title": "T.I.N.T",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/whihTpeemOPFnDtoaK7kVixIvka.jpg",
+      "genre_ids": [
+        10402
+      ],
+      "id": 873790,
+      "original_language": "ja",
+      "original_title": "Aimer 10th Anniversary Live in SAITAMA SUPER ARENA \"night world”",
+      "overview": "",
+      "popularity": 2.879,
+      "poster_path": "/9RK8DScMhmBLnV6QGCLqSSsLabJ.jpg",
+      "release_date": "2021-09-12",
+      "title": "Aimer 10th Anniversary Live in SAITAMA SUPER ARENA \"night world”",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qyhmlZ6Vf7flcud2S6V1vRaQ7ng.jpg",
+      "genre_ids": [
+        18,
+        36
+      ],
+      "id": 873713,
+      "original_language": "en",
+      "original_title": "King Lear",
+      "overview": "The once powerful King Lear chooses to divide his kingdom among his three daughters, and so begins one of Shakespeare’s most moving tragedies. At the crucial point of relinquishing his realm, Lear demands to know which of his daughters loves him the most. His ambitious older daughters answer with false praise and lavish flattery, however his youngest daughter, who does truly love him, answers with honesty. Wildly unsatisfied with her response, Lear’s rage sets in motion catastrophic consequences. Ultimately stripped of his privilege and its trappings, Lear must reckon with his own humanity.",
+      "popularity": 1.23,
+      "poster_path": "/c0pALld8927oFdEQ8fwjlD3aRJL.jpg",
+      "release_date": "2021-07-02",
+      "title": "King Lear",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eX7dkV0FIAXWY6Djt5Iwit4ig9J.jpg",
+      "genre_ids": [
+        35,
+        37
+      ],
+      "id": 873671,
+      "original_language": "pt",
+      "original_title": "Per Qualche Minuto di Pace",
+      "overview": "",
+      "popularity": 5.592,
+      "poster_path": "/viinwt61P8ZZ2NUDu3DO2Yv9RK8.jpg",
+      "release_date": "2021-09-17",
+      "title": "Per Qualche Minuto di Pace",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/of9yidIFbpSU2ZQDtUH111mK9OH.jpg",
+      "genre_ids": [
+        80,
+        18,
+        28
+      ],
+      "id": 873420,
+      "original_language": "de",
+      "original_title": "Untitled Heist Film",
+      "overview": "Two teenagers try to rob the old workplace of one of them.",
+      "popularity": 2.958,
+      "poster_path": "/sjswqzlw4H4sT9daQ15Ics0l7je.jpg",
+      "release_date": "2021-09-11",
+      "title": "Untitled Heist Film",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/48QGPCsDSaghWl9JxIjpTCwI1V7.jpg",
+      "genre_ids": [
+        99,
+        36
+      ],
+      "id": 872984,
+      "original_language": "es",
+      "original_title": "Tocala Otra Vez,pep",
+      "overview": "",
+      "popularity": 0.6,
+      "poster_path": "/4cmvmL9dmaWWzETY7pAH85okpXi.jpg",
+      "release_date": "2021-01-05",
+      "title": "Tocala Otra Vez,pep",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jmaL2k0SOe3IFSOvwKsUWWaCwnX.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 872966,
+      "original_language": "en",
+      "original_title": "The Enduring Mystery of Jack the Ripper",
+      "overview": "In the late 19th century, the City of London was the largest in the world. A sprawling metropolis and a melting pot for trade, finance, and people. But in the autumn of 1888, a horrific story emerged from the capital's East End. A story so dreadful, it sent the shockwaves around the world. One after another, destititue women of the East End fell victim to a vicious killer known as Jack the Ripper.",
+      "popularity": 0.6,
+      "poster_path": "/u38j0OUTYxzyNnIhbkVbHzyl3u8.jpg",
+      "release_date": "2021-09-09",
+      "title": "The Enduring Mystery of Jack the Ripper",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        27,
+        35
+      ],
+      "id": 872620,
+      "original_language": "en",
+      "original_title": "CarousHELL The 2nd",
+      "overview": "Duke has always wondered about his purpose in life. Who he was, what he was meant to do. He just found out that he's a father. At the same time, those who created Duke years ago have found him.  Now Duke has to deal with fatherhood AND dark magic wielding Nazis.",
+      "popularity": 2.315,
+      "poster_path": "/odO8HqAgMID2AkEHg2aqLFKEbNl.jpg",
+      "release_date": "2021-09-09",
+      "title": "CarousHELL The 2nd",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8fAVOSfFrzvrgs25n0T3oTS2MSa.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 872546,
+      "original_language": "pt",
+      "original_title": "The Empty Side of the Sofa",
+      "overview": "",
+      "popularity": 2.67,
+      "poster_path": "/pw1rYLBhl7x4ZQjvKzn1J4eL7de.jpg",
+      "release_date": "2021-09-09",
+      "title": "The Empty Side of the Sofa",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 2
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "id": "RetedMovie",
+  "RetedMovie": [
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18,
+        14,
+        53,
+        27
+      ],
+      "id": 844059,
+      "original_language": "en",
+      "original_title": "Haunted 5: Phantoms",
+      "overview": "A private investigator RETURNS to London. Andrew Robinson and his team investigate a London Pub that has Poltergeist activity. They encounter paranormal events, ghosts and phantoms who will make their investigation go all the way to hell.",
+      "popularity": 0.717,
+      "poster_path": "/16kXIdVyqGBF0WViQlxm24faYUv.jpg",
+      "release_date": "2020-12-22",
+      "title": "Haunted 5: Phantoms",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        27,
+        53,
+        9648
+      ],
+      "id": 842343,
+      "original_language": "en",
+      "original_title": "Haunted 4: Demons",
+      "overview": "In a housing estate in London, a house is haunted by an evil ghost child. The team investigate the continuing haunting and poltergeist activity with amazing evidence and a chilling conclusion.",
+      "popularity": 0.6,
+      "poster_path": "/amNYGwEuEjK615Y84WZZjs4YVT9.jpg",
+      "release_date": "2020-11-02",
+      "title": "Haunted 4: Demons",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10749
+      ],
+      "id": 835502,
+      "original_language": "en",
+      "original_title": "\"And So, It Goes\"",
+      "overview": "After months of no communication between each other, a young woman reaches out to her past lover, in hopes of developing a friendship.",
+      "popularity": 0.6,
+      "poster_path": "/yetezXjjkEh5LVleeRbTk1pkiTU.jpg",
+      "release_date": "2021-05-30",
+      "title": "\"And So, It Goes\"",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/az0UktwHYMrWprVyomDsTTHprRz.jpg",
+      "genre_ids": [],
+      "id": 824974,
+      "original_language": "en",
+      "original_title": "The Upshaws - The Afterparty",
+      "overview": "The comedic dream team from \"The Upshaws\" discuss the hit series, share some anecdotes from their own upbringings and play a little swag-centric game.",
+      "popularity": 1.4,
+      "poster_path": "/iRww3ilt4lpzsKN7ht9BXSz4rRF.jpg",
+      "release_date": "2021-05-14",
+      "title": "The Upshaws - The Afterparty",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vQVOPbaM500ERZyokkbEkws3IGm.jpg",
+      "genre_ids": [
+        18,
+        27,
+        14
+      ],
+      "id": 818878,
+      "original_language": "pt",
+      "original_title": "Vanitas",
+      "overview": "\"Vanity of vanities, everything is vanity\" says the bible. The word flows from the tongue naming the pleasure of earthly life and judging it as beautiful, but shallow and useless; vanity is a deadly sin. A female sin. The man painted the woman, put a mirror in his hands and called it vanity. The woman in representation admires herself, but the one who really admires her body is the artist. Whose vanity? In VANITAS, we re-divide the woman in our bodies, showing the depth of what is palpable. If the Father's temple hides after death, clean and perfect, we reject them. We welcome Mother Nature in us, life-death in a perpetual sacred cycle, also honoring her dark face. You may wish to reach heaven, but it is on earth that your knees fall.",
+      "popularity": 0.6,
+      "poster_path": "/zmcKQKIIPj2bIQAiIOCS9sPxPMI.jpg",
+      "release_date": "2021-04-15",
+      "title": "Vanitas",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/whk1aYV1OHUL9SDbFf556dMjEBw.jpg",
+      "genre_ids": [
+        10402
+      ],
+      "id": 816920,
+      "original_language": "en",
+      "original_title": "BROCKHAMPTON ROADRUNNER: LIVE FROM THE CHAPEL",
+      "overview": "BROCKHAMPTON presents their latest album ROADRUNNER: NEW LIGHT NEW MACHINE, live at The Chapel",
+      "popularity": 0.752,
+      "poster_path": "/mGDAyRlSPmBTtwsEUhWtzqnlGeh.jpg",
+      "release_date": "2021-04-09",
+      "title": "BROCKHAMPTON ROADRUNNER: LIVE FROM THE CHAPEL",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [],
+      "id": 811432,
+      "original_language": "en",
+      "original_title": "ART V",
+      "overview": "A bizarre journey through a room",
+      "popularity": 0.6,
+      "poster_path": "/jh3unEUrSd41WXHFNLhOlKg1RXW.jpg",
+      "release_date": "2021-03-25",
+      "title": "ART V",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        35
+      ],
+      "id": 811161,
+      "original_language": "en",
+      "original_title": "Law Fraud",
+      "overview": "A director of a low-budget movie set slowly loses his mind after a random guy claiming to be Jude Law walks onto set.",
+      "popularity": 0.6,
+      "poster_path": "/3DIcD7bdo14TInqBgZpWtQHa7se.jpg",
+      "release_date": "2021-03-27",
+      "title": "Law Fraud",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [],
+      "id": 809864,
+      "original_language": "en",
+      "original_title": "ART IV",
+      "overview": "The fourth film in the groundbreaking ART series",
+      "popularity": 0.6,
+      "poster_path": "/jgF6r0PNvQfBXastVEg3tReWVeY.jpg",
+      "release_date": "2021-03-05",
+      "title": "ART IV",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        37,
+        18,
+        28
+      ],
+      "id": 809854,
+      "original_language": "en",
+      "original_title": "Poker Problems",
+      "overview": "Two men get into a fight",
+      "popularity": 0.6,
+      "poster_path": "/jNRlVpB2VkI8JOkQLAXcL92ocOe.jpg",
+      "release_date": "2019-05-31",
+      "title": "Poker Problems",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/17KYVwKOqlTiaYfTCntoBs0pZcp.jpg",
+      "genre_ids": [
+        12
+      ],
+      "id": 787838,
+      "original_language": "en",
+      "original_title": "2019: A Cinematic Odyssey",
+      "overview": "2019: A Cinematic Odyssey is an eight hour musical celebration of film, including footage of over 245 feature-length movies.",
+      "popularity": 0.6,
+      "poster_path": "/1L4kc52eYY65kQ8oLydSZwlLV0k.jpg",
+      "release_date": "2019-09-28",
+      "title": "2019: A Cinematic Odyssey",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [],
+      "id": 787754,
+      "original_language": "en",
+      "original_title": "ART II.",
+      "overview": "A mysterious noise is heard and its horrifying source discovered.",
+      "popularity": 0.6,
+      "poster_path": "/ytk4SM8PhaV9b3TJ3lx1gzBaP5F.jpg",
+      "release_date": "2021-01-19",
+      "title": "ART II.",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        27
+      ],
+      "id": 787748,
+      "original_language": "en",
+      "original_title": "ART: A Work of Art",
+      "overview": "A creature falls from a high place",
+      "popularity": 0.663,
+      "poster_path": "/jZkR4bPzgDSqm9cYxRwFD5FelMB.jpg",
+      "release_date": "2020-07-28",
+      "title": "ART: A Work of Art",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8GCNIeSx4jGmkvt0Oy99tSDIxbI.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 776596,
+      "original_language": "en",
+      "original_title": "Bring Your Own Brigade",
+      "overview": "An investigation into our landscape's hidden fire stories and on-the-ground experiences of firefighters and residents struggling through deadly fires.",
+      "popularity": 2.857,
+      "poster_path": "/c5XsGMPMFSBrNZIIR936M33Don1.jpg",
+      "release_date": "2021-08-06",
+      "title": "Bring Your Own Brigade",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        35,
+        28
+      ],
+      "id": 773461,
+      "original_language": "en",
+      "original_title": "The Mysterious Disappearance of Awesome Jackson",
+      "overview": "When AWESOME JACKSON comes home from a trip overseas, he's quickly involved in an explosive accident. But is Jackson really dead? His husband, GAY BORAT, is determined to find out.  First wide-spread release from DDAM films.",
+      "popularity": 0.6,
+      "poster_path": "/6YQWCJrUwqmytH3nEAoQP17I5To.jpg",
+      "release_date": "2020-09-04",
+      "title": "The Mysterious Disappearance of Awesome Jackson",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18,
+        53
+      ],
+      "id": 767532,
+      "original_language": "en",
+      "original_title": "Scales",
+      "overview": "Scales is a tense, claustrophobic drama that spends one evening with four characters, who are trapped in a combustable boiling pot of an apartment.  American boxer, Darnell, his PR manager and girlfriend, Maria, troubled entrepreneur Adam and drug dealer Keith are forced to question their relationships and loyalties, as sinister secrets come to the fore, threatening dangerous consequences.  Unsettling and unexpected, this dark tale of lies and manipulation will lead audiences on a voyeuristic and ill-fated journey that, like the four characters, their sensibility may not want to be a part of, but their curiosity certainly will, begging the question: 'How do you weigh trust?'",
+      "popularity": 0.6,
+      "poster_path": "/tcj4KCDKo20q6O9u2XgUG7qWuKa.jpg",
+      "release_date": "2020-11-27",
+      "title": "Scales",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        27,
+        35,
+        28
+      ],
+      "id": 764876,
+      "original_language": "en",
+      "original_title": "Fear Trumps All",
+      "overview": "Two years after the death of Mayor Phil D. Burn, The Donald returns to wreak havoc on the city of Clintown.",
+      "popularity": 0.6,
+      "poster_path": "/aOA3qjsNHyL0FH77P8MUuN96Ym5.jpg",
+      "release_date": "2020-11-03",
+      "title": "Fear Trumps All",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jez3n7mHfU5ozvyx0nAQIYcPw1D.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 755519,
+      "original_language": "en",
+      "original_title": "Freak Power: The Ballot or the Bomb",
+      "overview": "Hunter S. Thompson went to the 1968 Democratic Convention in Chicago as a journalist and returned home disgusted, yet motivated by what he’d just seen: violently suppressed protests, riots, corrupt politicians, and abusive cops. Back in Aspen, he finds more of the same. The local police and sheriff’s departments are targeting young people, harassing and charging them with absurd crimes and trying to push them out of town. Hunter decides he has to do something to change the police brutality that has become the norm.",
+      "popularity": 0.6,
+      "poster_path": "/7llKc0sfXqzEUDRQOEKoAqvJxQb.jpg",
+      "release_date": "2020-10-23",
+      "title": "Freak Power: The Ballot or the Bomb",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tOZk74vUVbVk1YOjiusCqsptrn8.jpg",
+      "genre_ids": [
+        16,
+        878,
+        53
+      ],
+      "id": 727773,
+      "original_language": "en",
+      "original_title": "NEUROSI5: Momento",
+      "overview": "“Momento” is a dark cyberpunk animated shortfilm about the concept of reality and existence within a virtual mind. The shortfilm is set in the same universe of NEUROSI5.",
+      "popularity": 0.706,
+      "poster_path": "/pqeLPU5y5poDN6Plhju6WIzFhRO.jpg",
+      "release_date": "2020-06-05",
+      "title": "NEUROSI5: Momento",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        37,
+        53
+      ],
+      "id": 718485,
+      "original_language": "en",
+      "original_title": "The Question",
+      "overview": "Two men drive into the desert. A question is asked and the answer has a violent outcome",
+      "popularity": 1.272,
+      "poster_path": "/9ea3sJoUMXHxR3fNgy7mOiTPqEy.jpg",
+      "release_date": "2020-06-23",
+      "title": "The Question",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    }
+  ]
+}

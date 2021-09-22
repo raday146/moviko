@@ -12,6 +12,13 @@ import {withStyles} from '@material-ui/styles';
 import useSpinnerState from './hooks/useSpinnerState';
 import {populary, theNewst, highestReted, tim} from './constants/constant';
 import SearchReasult from './SearchReasult';
+import Hmovies from './movies-data/allMovies.json';
+import Nmovies from './movies-data/newMovie.json';
+import Rmovies from './movies-data/RetedMovie.json';
+import Pmovies from './movies-data/popularMovie.json';
+
+
+
  import styles from './styles/movikoAppStyle';
  
 const cinema ={
@@ -29,22 +36,24 @@ function MovikoApp(props){
   const [loading, spinner] = useSpinnerState(spin);
 
   const {classes} = props;
-  GetMoviesPages().map(movies => !cinema.allMovies.includes(movies)?  cinema.allMovies.push(movies): movies);
+ /* GetMoviesPages().map(movies => !cinema.allMovies.includes(movies)?  cinema.allMovies.push(movies): movies);
   GetMoviesByQuery(theNewst).map(movies => !cinema.newMovie.includes(movies)?  cinema.newMovie.push(movies): movies);
   GetMoviesByQuery(highestReted).map(movie=> !cinema.RetedMovie.includes(movie)? cinema.RetedMovie.push(movie):movie); 
   GetMoviesByQuery(populary).map(movies => !cinema.popularMovie.includes(movies)?  cinema.popularMovie.push(movies): movies);
-  useEffect(()=>{
+  */
+ useEffect(()=>{
     if(loading){
      setTimeout(()=>{
       
          const data =[
-                {id:"allMovies", allMovies:cinema.allMovies},
-                {id:"newMovie", newMovie:cinema.newMovie},
-                {id:"RetedMovie", RetedMovie:cinema.RetedMovie},
-                {id:"popularMovie", popularMovie:cinema.popularMovie}
+                {id:"allMovies", allMovies:Hmovies.allMovies},
+                {id:"newMovie", newMovie:Nmovies.newMovie},
+                {id:"RetedMovie", RetedMovie:Rmovies.RetedMovie},
+                {id:"popularMovie", popularMovie:Pmovies.popularMovie}
 
         ]
         
+        console.log(data);
          window.localStorage.setItem('cinema',JSON.stringify(data));
          //window.localStorage.setItem("highestReted", JSON.stringify(movieList));
          spinner();

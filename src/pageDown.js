@@ -9,15 +9,15 @@ import { Link } from 'react-router-dom';
 function PageDown(props){
     const {classes} =props;
     const {goTo} = useContext(searchReasultContext);
-   const backHome =()=>{
+   /*const backHome =()=>{
         goTo('home');
         //console.log('a');
-     };
+     };*/
     const card =  <div>
             <img src={img} alt='' width={150} />
             <h3> No results found</h3>
             <li  className={classes.linkBtn} >
-             <Link exact to="/moviko/Home" onClick={()=>{backHome('Home')} } >
+             <Link exact to="/moviko/Home">
                          <span className={classes.span}>Home</span>
               </Link>
             </li>
