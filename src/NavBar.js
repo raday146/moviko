@@ -24,7 +24,7 @@ function NavBar(props){
      <div>    
       <IconContext.Provider value={{color:"white"}}> 
         <div className={classes.root}>
-            <Link tg='#' className={classes.menubar}>
+            <Link to='#' className={classes.menubar}>
              { !sidebar? <FaIcons.FaBars onClick={showSidebar}/> :""}
             </Link>
         </div>
