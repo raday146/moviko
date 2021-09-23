@@ -12,11 +12,7 @@ import {withStyles} from '@material-ui/styles';
 import useSpinnerState from './hooks/useSpinnerState';
 import {populary, theNewst, highestReted, tim} from './constants/constant';
 import SearchReasult from './SearchReasult';
-import Hmovies from './movies-data/allMovies.json';
-import Nmovies from './movies-data/newMovie.json';
-import Rmovies from './movies-data/RetedMovie.json';
-import Pmovies from './movies-data/popularMovie.json';
-import { CSSTransition, TransitionGroup } from "react-transition-group"; 
+import { TransitionGroup } from "react-transition-group"; 
 import {useHistory} from 'react-router-dom';
 
 
@@ -54,8 +50,6 @@ function MovikoApp(props){
                 {id:"popularMovie", popularMovie:cinema.popularMovie}
 
         ]
-        
-        console.log(data);
          window.localStorage.setItem('cinema',JSON.stringify(data));
          //window.localStorage.setItem("highestReted", JSON.stringify(movieList));
          spinner();
@@ -78,7 +72,6 @@ function MovikoApp(props){
           
         <Router location={props.location}>
          <TransitionGroup>
-           <CSSTransition >
             <Switch>
              <MovikoProvider>
               <NavBar/>
@@ -91,7 +84,6 @@ function MovikoApp(props){
                     
              </MovikoProvider>
             </Switch>
-           </CSSTransition>
          </TransitionGroup>
           
         </Router>
