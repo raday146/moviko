@@ -35,7 +35,7 @@ function MovikoApp(props){
   const {classes} = props;
   GetMoviesPages().map(movies => !cinema.allMovies.includes(movies)?  cinema.allMovies.push(movies): movies);
   GetMoviesByQuery(theNewst).map(movies => !cinema.newMovie.includes(movies)?  cinema.newMovie.push(movies): movies);
-   GetMoviesByQuery(highestRated).map(movies => !cinema.ratedMovie.includes(movies)?  cinema.ratedMovie.push(movies): movies);
+  GetMoviesByQuery(highestRated).map(movies => !cinema.ratedMovie.includes(movies)? cinema.ratedMovie.push(movies): movies);
   GetMoviesByQuery(populary).map(movies => !cinema.popularMovie.includes(movies)?  cinema.popularMovie.push(movies): movies);
   
  useEffect(()=>{
