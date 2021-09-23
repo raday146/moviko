@@ -21,7 +21,7 @@ const cinema ={
   allMovies:[],
   newMovie:[],
   popularMovie:[],
-  RatedMovie:[]
+  ratedMovie:[]
 }
 
 const localStorage = window.localStorage;
@@ -35,7 +35,7 @@ function MovikoApp(props){
   const {classes} = props;
   GetMoviesPages().map(movies => !cinema.allMovies.includes(movies)?  cinema.allMovies.push(movies): movies);
   GetMoviesByQuery(theNewst).map(movies => !cinema.newMovie.includes(movies)?  cinema.newMovie.push(movies): movies);
-  GetMoviesByQuery(highestRated).map(movies=> !cinema.RatedMovie.includes(movies)? cinema.RatedMovie.push(movies):movies); 
+  GetMoviesByQuery(highestRated).map(movies=> !cinema.RatedMovie.includes(movies)? cinema.ratedMovie.push(movies):movies); 
   GetMoviesByQuery(populary).map(movies => !cinema.popularMovie.includes(movies)?  cinema.popularMovie.push(movies): movies);
   
  useEffect(()=>{
@@ -45,7 +45,7 @@ function MovikoApp(props){
          const data =[
                 {id:"allMovies", allMovies:cinema.allMovies},
                 {id:"newMovie", newMovie:cinema.newMovie},
-                {id:"RatedMovie", RatedMovie:cinema.RatedMovie},
+                {id:"RatedMovie", ratedMovie:cinema.ratedMovie},
                 {id:"popularMovie", popularMovie:cinema.popularMovie}
 
         ]
