@@ -48,10 +48,10 @@ function MovikoApp(props){
      setTimeout(()=>{
       
          const data =[
-                {id:"allMovies", allMovies:Hmovies.allMovies},
-                {id:"newMovie", newMovie:Nmovies.newMovie},
-                {id:"RetedMovie", RetedMovie:Rmovies.RetedMovie},
-                {id:"popularMovie", popularMovie:Pmovies.popularMovie}
+                {id:"allMovies", allMovies:cinema.allMovies},
+                {id:"newMovie", newMovie:cinema.newMovie},
+                {id:"RetedMovie", RetedMovie:cinema.RetedMovie},
+                {id:"popularMovie", popularMovie:cinema.popularMovie}
 
         ]
         
