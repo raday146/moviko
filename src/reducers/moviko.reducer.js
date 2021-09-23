@@ -1,6 +1,7 @@
 
 const checkGaners =(id) => {
   const list = JSON.parse(localStorage.getItem('cinema'));
+  console.log(list, id);
   return list.filter(item => item.id === id);
 }
 const reducer = (movies, action) => {
@@ -12,6 +13,7 @@ const reducer = (movies, action) => {
            return checkGaners(action.id);
 
         case "HighestRated":
+           console.log(action.id);
            return checkGaners(action.id);
                        
         case "MostPopular":

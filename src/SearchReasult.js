@@ -8,7 +8,6 @@ import PageDown  from './pageDown';
 function SearchReasult(props){
     const {classes} =props;
     const {data} = useContext(searchReasultContext);
-    console.log("before search");
     const cards = data.length? data.map(((movie,i) =>(
           <MovieCard  
              key={movie.id} 

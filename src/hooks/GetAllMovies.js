@@ -29,8 +29,6 @@ function GetMoviesPages(){
 } 
 
 export const getMoviesBySearch = async (urlLink)=>{
-  
-        console.log(urlLink);
         const repo = await fetch(urlLink);
         const data= await repo.json();
         return data.results;
@@ -42,6 +40,7 @@ function GetMoviesByQuery(query){
     // Define the function that fetches the data from API
     const fetchData = async () => {
     const { data } = await axios.get(query);
+    
     setData([...data.results]);
   };
     useEffect(() => {    

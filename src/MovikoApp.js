@@ -12,7 +12,7 @@ import {withStyles} from '@material-ui/styles';
 import useSpinnerState from './hooks/useSpinnerState';
 import {populary, theNewst, highestRated, tim} from './constants/constant';
 import SearchReasult from './SearchReasult';
-import { TransitionGroup } from "react-transition-group"; 
+import {CSSTransition, TransitionGroup } from "react-transition-group"; 
 
 
  import styles from './styles/movikoAppStyle';
@@ -35,7 +35,7 @@ function MovikoApp(props){
   const {classes} = props;
   GetMoviesPages().map(movies => !cinema.allMovies.includes(movies)?  cinema.allMovies.push(movies): movies);
   GetMoviesByQuery(theNewst).map(movies => !cinema.newMovie.includes(movies)?  cinema.newMovie.push(movies): movies);
-  GetMoviesByQuery(highestRated).map(movies=> !cinema.RatedMovie.includes(movies)? cinema.ratedMovie.push(movies):movies); 
+  GetMoviesByQuery(highestRated).map(movies=> !cinema.ratedMovie.includes(movies)? cinema.ratedMovie.push(movies):movies); 
   GetMoviesByQuery(populary).map(movies => !cinema.popularMovie.includes(movies)?  cinema.popularMovie.push(movies): movies);
   
  useEffect(()=>{
@@ -45,7 +45,7 @@ function MovikoApp(props){
          const data =[
                 {id:"allMovies", allMovies:cinema.allMovies},
                 {id:"newMovie", newMovie:cinema.newMovie},
-                {id:"RatedMovie", ratedMovie:cinema.ratedMovie},
+                {id:"ratedMovie", ratedMovie:cinema.ratedMovie},
                 {id:"popularMovie", popularMovie:cinema.popularMovie}
 
         ]
@@ -71,6 +71,7 @@ function MovikoApp(props){
           
         <Route>
          <TransitionGroup>
+          <CSSTransition>
             <Switch>
              <MovikoProvider>
               <NavBar/>
@@ -83,6 +84,7 @@ function MovikoApp(props){
                     
              </MovikoProvider>
             </Switch>
+            </CSSTransition>
          </TransitionGroup>
           
         </Route>
