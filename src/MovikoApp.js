@@ -10,7 +10,7 @@ import {GetMoviesByQuery, GetMoviesPages} from './hooks/GetAllMovies';
 import {HashLoader} from 'react-spinners';
 import {withStyles} from '@material-ui/styles';
 import useSpinnerState from './hooks/useSpinnerState';
-import {populary, theNewst, highestReted, tim} from './constants/constant';
+import {populary, theNewst, highestRated, tim} from './constants/constant';
 import SearchReasult from './SearchReasult';
 import { TransitionGroup } from "react-transition-group"; 
 
@@ -21,7 +21,7 @@ const cinema ={
   allMovies:[],
   newMovie:[],
   popularMovie:[],
-  RetedMovie:[]
+  RatedMovie:[]
 }
 
 const localStorage = window.localStorage;
@@ -35,7 +35,7 @@ function MovikoApp(props){
   const {classes} = props;
   GetMoviesPages().map(movies => !cinema.allMovies.includes(movies)?  cinema.allMovies.push(movies): movies);
   GetMoviesByQuery(theNewst).map(movies => !cinema.newMovie.includes(movies)?  cinema.newMovie.push(movies): movies);
-  GetMoviesByQuery(highestReted).map(movies=> !cinema.RetedMovie.includes(movies)? cinema.RetedMovie.push(movies):movies); 
+  GetMoviesByQuery(highestRated).map(movies=> !cinema.RatedMovie.includes(movies)? cinema.RatedMovie.push(movies):movies); 
   GetMoviesByQuery(populary).map(movies => !cinema.popularMovie.includes(movies)?  cinema.popularMovie.push(movies): movies);
   
  useEffect(()=>{
@@ -45,7 +45,7 @@ function MovikoApp(props){
          const data =[
                 {id:"allMovies", allMovies:cinema.allMovies},
                 {id:"newMovie", newMovie:cinema.newMovie},
-                {id:"RetedMovie", RetedMovie:cinema.RetedMovie},
+                {id:"RatedMovie", RatedMovie:cinema.RatedMovie},
                 {id:"popularMovie", popularMovie:cinema.popularMovie}
 
         ]

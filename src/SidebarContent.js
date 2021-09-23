@@ -22,7 +22,7 @@ export const SidebarContent= [
     path: '/HighestRated',
     icon: <Md.MdLocalMovies/>,
     cName: 'nav-text',
-    id:"RetedMovie"
+    id:"RatedMovie"
    },
     {
     title: 'MostPopular',

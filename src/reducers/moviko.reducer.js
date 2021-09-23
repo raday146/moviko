@@ -1,7 +1,6 @@
 
 const checkGaners =(id) => {
   const list = JSON.parse(localStorage.getItem('cinema'));
-  
   return list.filter(item => item.id === id);
 }
 const reducer = (movies, action) => {

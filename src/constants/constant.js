@@ -7,7 +7,7 @@ export const search = `https://api.themoviedb.org/3/search/movie?api_key=${apiKe
 export const populary = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${apiKey}&page=1`;
 export const theNewst =`https://api.themoviedb.org/3/discover/movie?primary_release_year=${year}&sort_by=vote_average.desc&api_key=${apiKey}&page=1`;
 export const all = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&primary_release_date.gte=${year-2}-01-01&primary_release_date.lte=${isoCurrentDate}&vote_average.gte>7`;
-export const highestReted = `https://api.themoviedb.org/3/discover/movie/?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=${apiKey}`;
+export const highestRated = `https://api.themoviedb.org/3/discover/movie/?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=${apiKey}`;
 export const getTrailerUrl=(id)=> {return `https://api.themoviedb.org/3/discover/movie/${id}/videos?api_key=${apiKey}&language=en-US`};
 export const tim = 5000;
 

@@ -7,9 +7,9 @@ import styles from '../styles/mainForumStyle';
 function HighestRated(props){
     const {classes} =props;
     const cinema = useContext(MovikoContext);
-    const RetedMovie= cinema[0].RetedMovie;
+    const RatedMovie= cinema[0].RatedMovie;
 
-    const cards =  RetedMovie.map(((movie,i) =>(
+    const cards =  RatedMovie.map(((movie,i) =>(
           
           <MovieCard 
              key={movie.id} 
