@@ -1,5 +1,5 @@
 import React, {memo, useEffect} from 'react';
-import {Redirect, Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import {Redirect, Route, Switch } from 'react-router-dom';
 import NavBar from './NavBar';
 import Home from './forums/Home';
 import MostPopular from './forums/MostPopular';
@@ -13,7 +13,6 @@ import useSpinnerState from './hooks/useSpinnerState';
 import {populary, theNewst, highestReted, tim} from './constants/constant';
 import SearchReasult from './SearchReasult';
 import { TransitionGroup } from "react-transition-group"; 
-import {useHistory} from 'react-router-dom';
 
 
  import styles from './styles/movikoAppStyle';
@@ -29,14 +28,14 @@ const localStorage = window.localStorage;
 
 
 function MovikoApp(props){
-  const history = useHistory();
+  //const history = useHistory();
   let spin = !localStorage.getItem('cinema')? true : false;
   const [loading, spinner] = useSpinnerState(spin);
 
   const {classes} = props;
   GetMoviesPages().map(movies => !cinema.allMovies.includes(movies)?  cinema.allMovies.push(movies): movies);
   GetMoviesByQuery(theNewst).map(movies => !cinema.newMovie.includes(movies)?  cinema.newMovie.push(movies): movies);
-  GetMoviesByQuery(highestReted).map(movie=> !cinema.RetedMovie.includes(movie)? cinema.RetedMovie.push(movie):movie); 
+  GetMoviesByQuery(highestReted).map(movies=> !cinema.RetedMovie.includes(movies)? cinema.RetedMovie.push(movies):movies); 
   GetMoviesByQuery(populary).map(movies => !cinema.popularMovie.includes(movies)?  cinema.popularMovie.push(movies): movies);
   
  useEffect(()=>{
@@ -70,7 +69,7 @@ function MovikoApp(props){
             <h4 className={classes.loadingTitle}>Loading...</h4>
            </div> :
           
-        <Router location={props.location}>
+        <Route>
          <TransitionGroup>
             <Switch>
              <MovikoProvider>
@@ -86,7 +85,7 @@ function MovikoApp(props){
             </Switch>
          </TransitionGroup>
           
-        </Router>
+        </Route>
       }
       </div>
     );

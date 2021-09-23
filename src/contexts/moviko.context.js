@@ -14,8 +14,8 @@ function MovikoProvider(props){
     ///const [reasult, handleSearchResult] = useReasultState();
     const [data, dis] = useReducer(pullReasult,"");
     const history = useHistory(props);
+    
     const goTo=(dest)=>{
-
      //props.history.push(dest);
      history.push(dest);
      console.log(props.location);

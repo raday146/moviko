@@ -1,6 +1,4 @@
-import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
-import * as FaIcons from 'react-icons/fa';
+import React from 'react';
 import *  as AiIcons from 'react-icons/ai';
 import *  as Md from 'react-icons/md';
 
