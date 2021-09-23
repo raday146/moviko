@@ -10,7 +10,7 @@ import {GetMoviesByQuery, GetMoviesPages} from './hooks/GetAllMovies';
 import {HashLoader} from 'react-spinners';
 import {withStyles} from '@material-ui/styles';
 import useSpinnerState from './hooks/useSpinnerState';
-import {populary, theNewst, highestRated, timer} from './constants/constant';
+import {populary, theNewst, highestRated, seconds} from './constants/constant';
 import SearchReasult from './SearchReasult';
 import {CSSTransition, TransitionGroup } from "react-transition-group"; 
 
@@ -35,7 +35,12 @@ function MovikoApp(props){
   const {classes} = props;
   GetMoviesPages().map(movies => !cinema.allMovies.includes(movies)?  cinema.allMovies.push(movies): movies);
   GetMoviesByQuery(theNewst).map(movies => !cinema.newMovie.includes(movies)?  cinema.newMovie.push(movies): movies);
-  GetMoviesByQuery(highestRated).map(movies=> !cinema.ratedMovie.includes(movies)? cinema.ratedMovie.push(movies):movies); 
+  GetMoviesByQuery(highestRated).map((movies)=>{ 
+    if(!cinema.ratedMovie.includes(movies)){
+       cinema.ratedMovie.push(movies);
+       console.log(movies, "ssd");
+    }
+    }); 
   GetMoviesByQuery(populary).map(movies => !cinema.popularMovie.includes(movies)?  cinema.popularMovie.push(movies): movies);
   
  useEffect(()=>{
@@ -49,7 +54,7 @@ function MovikoApp(props){
                 {id:"popularMovie", popularMovie:cinema.popularMovie}
 
         ]
-        console.log(data)
+        console.log(data, "first update data");
          window.localStorage.setItem('cinema',JSON.stringify(data));
          //window.localStorage.setItem("highestReted", JSON.stringify(movieList));
          spinner();
