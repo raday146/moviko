@@ -10,7 +10,7 @@ import {GetMoviesByQuery, GetMoviesPages} from './hooks/GetAllMovies';
 import {HashLoader} from 'react-spinners';
 import {withStyles} from '@material-ui/styles';
 import useSpinnerState from './hooks/useSpinnerState';
-import {populary, theNewst, highestRated, tim} from './constants/constant';
+import {populary, theNewst, highestRated, timer} from './constants/constant';
 import SearchReasult from './SearchReasult';
 import {CSSTransition, TransitionGroup } from "react-transition-group"; 
 
@@ -49,10 +49,11 @@ function MovikoApp(props){
                 {id:"popularMovie", popularMovie:cinema.popularMovie}
 
         ]
+        console.log(data)
          window.localStorage.setItem('cinema',JSON.stringify(data));
          //window.localStorage.setItem("highestReted", JSON.stringify(movieList));
          spinner();
-     },(tim));
+     },(seconds));
     }
   }, []);
 

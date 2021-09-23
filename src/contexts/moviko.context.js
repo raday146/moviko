@@ -2,16 +2,13 @@ import React, {createContext,memo,useReducer} from "react";
 import {useHistory} from 'react-router-dom';
 import reducer from "../reducers/moviko.reducer";
 import {useLocalStorageReducer} from '../reducers/useLocalStorage';
-//import useReasultState from "../hooks/useReasultState";
 import pullReasult from '../reducers/searchReducer';
 export const MovikoContext = createContext();
 export const DispatchContext = createContext();
 export const searchReasultContext = createContext();
 
 function MovikoProvider(props){       
-   // const list = JSON.parse(localStorage.getItem('movies'));
     const [cinema, dispatch] = useLocalStorageReducer("cinema","", reducer); 
-    ///const [reasult, handleSearchResult] = useReasultState();
     const [data, dis] = useReducer(pullReasult,"");
     const history = useHistory(props);
     
