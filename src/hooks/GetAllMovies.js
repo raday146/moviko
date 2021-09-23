@@ -28,11 +28,19 @@ function GetMoviesPages(){
     return data;
 } 
 
-   export const getTheMovies = async (urlLink)=>{
+export const getMoviesBySearch = async (urlLink)=>{
+    const requestOptions = {
+        method: 'GET',
+        headers: { "Host": "api.themoviedb.org",'Content-Type': 'application/json', 'Authorization': 'Bearer my-token',
+        'My-Custom-Header': 'foobar' },
+    };
+        console.log(urlLink);
         const repo = await fetch(urlLink);
         const data= await repo.json();
         return data.results;
-    };
+};
+
+
 function GetMoviesByQuery(query){
     const [data, setData] = useState([]);
     // Define the function that fetches the data from API

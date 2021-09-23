@@ -1,5 +1,5 @@
 import React, {createContext,memo,useReducer} from "react";
-import {withRouter, useHistory} from 'react-router-dom';
+import {useHistory} from 'react-router-dom';
 import reducer from "../reducers/moviko.reducer";
 import {useLocalStorageReducer} from '../reducers/useLocalStorage';
 //import useReasultState from "../hooks/useReasultState";
@@ -13,12 +13,12 @@ function MovikoProvider(props){
     const [cinema, dispatch] = useLocalStorageReducer("cinema","", reducer); 
     ///const [reasult, handleSearchResult] = useReasultState();
     const [data, dis] = useReducer(pullReasult,"");
-    const history = useHistory();
+    const history = useHistory(props);
     const goTo=(dest)=>{
 
      //props.history.push(dest);
      history.push(dest);
-     //console.log(props);
+     console.log(props.location);
    }
 
     return(
@@ -33,4 +33,4 @@ function MovikoProvider(props){
     );
 
 }
-export default withRouter(memo(MovikoProvider));
+export default memo(MovikoProvider);

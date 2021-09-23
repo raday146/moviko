@@ -1,5 +1,5 @@
 import React, {memo, useEffect} from 'react';
-import {Redirect, Route, Switch,withRouter  } from 'react-router-dom';
+import {Redirect, Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import NavBar from './NavBar';
 import Home from './forums/Home';
 import MostPopular from './forums/MostPopular';
@@ -17,6 +17,7 @@ import Nmovies from './movies-data/newMovie.json';
 import Rmovies from './movies-data/RetedMovie.json';
 import Pmovies from './movies-data/popularMovie.json';
 import { CSSTransition, TransitionGroup } from "react-transition-group"; 
+import {useHistory} from 'react-router-dom';
 
 
  import styles from './styles/movikoAppStyle';
@@ -32,6 +33,7 @@ const localStorage = window.localStorage;
 
 
 function MovikoApp(props){
+  const history = useHistory();
   let spin = !localStorage.getItem('cinema')? true : false;
   const [loading, spinner] = useSpinnerState(spin);
 
@@ -74,9 +76,9 @@ function MovikoApp(props){
             <h4 className={classes.loadingTitle}>Loading...</h4>
            </div> :
           
-        <Route render = {({loction}) =>(
+        <Router location={props.location}>
          <TransitionGroup>
-           <CSSTransition  classNames='page' timeout={500}>
+           <CSSTransition >
             <Switch>
              <MovikoProvider>
               <NavBar/>
@@ -91,9 +93,8 @@ function MovikoApp(props){
             </Switch>
            </CSSTransition>
          </TransitionGroup>
-        )}>
           
-        </Route>
+        </Router>
       }
       </div>
     );

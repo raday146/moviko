@@ -1,7 +1,7 @@
 import React,{useContext} from "react";
 import { TextField, Paper,withStyles } from "@material-ui/core";
 import useInuptState from './hooks/useInputState';
-import { getTheMovies} from "./hooks/GetAllMovies";
+import { getMoviesBySearch} from "./hooks/GetAllMovies";
 import {search} from './constants/constant';
 import { searchReasultContext } from "./contexts/moviko.context";
 import { Link } from "react-router-dom";
@@ -21,7 +21,7 @@ function NavForm(props){
                 //  console.log(search+value);
                                       console.log('at search');
 
-                 value? getTheMovies(search+value).then((data) =>{
+                 value? getMoviesBySearch(search+value).then((data) =>{
                     if(data){
                       dis({items:data});
                       goTo(`/moviko/search/${value}`);

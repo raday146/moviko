@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import {Link, withRouter} from 'react-router-dom';
+import {Link } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import *  as AiIcons from 'react-icons/ai';
 import {SidebarContent} from './SidebarContent';
@@ -16,6 +16,7 @@ function NavBar(props){
     const [sidebar, showSidebar] = useSidebarState(false);
     const dispatch = useContext(DispatchContext);
     const {dis} = useContext(searchReasultContext);
+  
     const handleLink = (item)=>{
         dispatch({type:`${item.title}`, id:`${item.id}`})
         dis({items:""});
@@ -24,17 +25,17 @@ function NavBar(props){
      <div>    
       <IconContext.Provider value={{color:"white"}}> 
         <div className={classes.root}>
-            <Link to='#' className={classes.menubar}>
+            <ul className={classes.menubar}>
              { !sidebar? <FaIcons.FaBars onClick={showSidebar}/> :""}
-            </Link>
+            </ul>
         </div>
         <div style={{position:"relative"}} >
          <nav className={sidebar ? classes.navActive: classes.nevMenu}>
              <div className={classes.navItems} onClick={showSidebar}>
                 <li className={classes.navbarToggle} >
-                   <Link to="#" className={classes.menubar}>
+                   <ul className={classes.menubar}>
                      <AiIcons.AiOutlineClose onClick={showSidebar}/>
-                   </Link>
+                   </ul>
                    {SidebarContent.map((item, index) =>{
                      return(
                          <li key={index} className={classes.navText} >
@@ -58,4 +59,4 @@ function NavBar(props){
      
     );
 }
-export default withStyles(styles)(withRouter(NavBar));
+export default withStyles(styles)(NavBar);
