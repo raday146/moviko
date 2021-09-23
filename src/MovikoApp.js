@@ -38,11 +38,11 @@ function MovikoApp(props){
   const [loading, spinner] = useSpinnerState(spin);
 
   const {classes} = props;
- /* GetMoviesPages().map(movies => !cinema.allMovies.includes(movies)?  cinema.allMovies.push(movies): movies);
+  GetMoviesPages().map(movies => !cinema.allMovies.includes(movies)?  cinema.allMovies.push(movies): movies);
   GetMoviesByQuery(theNewst).map(movies => !cinema.newMovie.includes(movies)?  cinema.newMovie.push(movies): movies);
   GetMoviesByQuery(highestReted).map(movie=> !cinema.RetedMovie.includes(movie)? cinema.RetedMovie.push(movie):movie); 
   GetMoviesByQuery(populary).map(movies => !cinema.popularMovie.includes(movies)?  cinema.popularMovie.push(movies): movies);
-  */
+  
  useEffect(()=>{
     if(loading){
      setTimeout(()=>{
