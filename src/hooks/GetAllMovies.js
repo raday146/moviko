@@ -29,6 +29,7 @@ function GetMoviesPages(){
 } 
 
    export const getTheMovies = async (urlLink)=>{
+        console.log(urlLink);
         const repo = await fetch(urlLink);
         const data= await repo.json();
         return data.results;
